@@ -1,0 +1,26 @@
+notification channel priorities
+
+1.IMPORTANCE_DEFAULT
+  Added in API level 24
+  public static final int IMPORTANCE_DEFAULT
+
+  Default notification importance: shows everywhere, makes noise, but does not visually intrude.
+
+2.IMPORTANCE_HIGH
+  Added in API level 24
+  public static final int IMPORTANCE_HIGH
+
+  Higher notification importance: shows everywhere, makes noise and peeks
+
+3.IMPORTANCE_LOW
+  Added in API level 24
+  public static final int IMPORTANCE_LOW
+
+  Low notification importance: Shows in the shade, and potentially in the status bar,
+  but is not audibly intrusive.
+
+4.IMPORTANCE_NONE
+  Added in API level 24
+  public static final int IMPORTANCE_NONE
+
+  A notification with no importance: does not show in the shade.
